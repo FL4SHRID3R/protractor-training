@@ -4,7 +4,8 @@
   "main": "app/main.js",
   "scripts": {
     "start": "http-server -a 0.0.0.0 -p 9000",
-    "bundle": "webpack app/main.js ./main.bundle.js --config webpack.config.js --watch -d"
+    "bundle": "webpack app/main.js ./main.bundle.js --config webpack.config.js --watch -d",
+    "test": "protractor ./E2E/config.js"
   },
   "repository": {
     "type": "git",
