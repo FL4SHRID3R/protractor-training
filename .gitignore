@@ -4,3 +4,4 @@ npm-debug.log
 
 !node_modules/todomvc-app-css/index.css
 !node_modules/todomvc-common/base.css
+.idea/
