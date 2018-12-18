@@ -4,7 +4,8 @@
   "main": "app/main.js",
   "scripts": {
     "start": "http-server -a 0.0.0.0 -p 9000",
-    "bundle": "webpack app/main.js ./main.bundle.js --config webpack.config.js --watch -d"
+    "bundle": "webpack app/main.js ./main.bundle.js --config webpack.config.js --watch -d",
+    "test": "protractor ./E2E/config.js"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,8 @@
     "rxjs": "5.0.0-beta.12",
     "todomvc-app-css": "2.0.6",
     "todomvc-common": "1.0.2",
+    "unzip": "^0.1.11",
+    "zlib": "^1.0.5",
     "zone.js": "0.6.25"
   },
   "devDependencies": {
