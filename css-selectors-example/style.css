@@ -1,0 +1,20 @@
+div,
+section {
+  background: red;
+  width: 100px;
+  min-height: 100px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* body > div:last-of-type {
+  background: gold;
+}
+
+div:first-child {
+  background: peru;
+} */
+
+div ~ * {
+  background: silver;
+}
